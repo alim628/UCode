@@ -26,18 +26,18 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 
-
-
 function App(): JSX.Element {
-
   return (
     <SafeAreaView>
-     <Text>UCode</Text>
+      <Text style={styles.qog}>Test</Text>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
+  qog: {
+    fontSize: 60,
+  },
 });
 
 export default App;
